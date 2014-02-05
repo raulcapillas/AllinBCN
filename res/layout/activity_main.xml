@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/gpsbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Location:" />
+
+    <EditText
+        android:id="@+id/usr_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>
